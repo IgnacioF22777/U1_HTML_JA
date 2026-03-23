@@ -1,0 +1,61 @@
+/* style.css */
+
+/* 1. Cambiamos el color de fondo y la fuente general */
+body {
+    background-color: #f0f4f8; /* Un color gris/azulado muy suave y moderno */
+    color: #333333; /* Texto gris oscuro para que no canse la vista */
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; /* Fuentes limpias y modernas */
+    line-height: 1.6; /* Mejoramos el espacio entre líneas */
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Modificamos y centramos el título principal */
+header h1 {
+    text-align: center; /* Centramos el texto */
+    font-size: 3.5rem; /* Hacemos el título bastante grande */
+    color: #2c3e50; /* Un azul marino oscuro para darle peso */
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+/* --- Extras opcionales para que se vea aún mejor --- */
+
+/* Centramos la navegación debajo del título */
+nav ul {
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Ponemos los enlaces uno al lado del otro */
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Le damos un fondo blanco al contenido principal para que resalte */
+main {
+    background-color: #ffffff;
+    max-width: 800px; /* Evita que el texto sea muy ancho en pantallas grandes */
+    margin: 30px auto; /* Centra el bloque blanco en la pantalla */
+    padding: 30px;
+    border-radius: 8px; /* Bordes un poco redondeados */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05); /* Una sombra muy sutil */
+}
+
+/* Ocultamos las líneas <hr> porque el diseño ya separa los elementos */
+hr {
+    display: none; 
+}
+
+/* Estilo para el pie de página */
+footer {
+    text-align: center;
+    color: #7f8c8d;
+    padding-bottom: 20px;
+}
